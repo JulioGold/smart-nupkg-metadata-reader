@@ -1,0 +1,33 @@
+{
+  "name": "smart-nupkg-metadata-reader",
+  "version": "1.0.0",
+  "description": "Nuget package metadata reader",
+  "main": "smartnupkgmetadatareader.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JulioGold/smart-nupkg-metadata-reader.git"
+  },
+  "keywords": [
+    "nuget",
+    "package",
+    "metadata",
+    "reader",
+    "nupkg"
+  ],
+  "author": "Julio Goldschmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulioGold/smart-nupkg-metadata-reader/issues"
+  },
+  "homepage": "https://github.com/JulioGold/smart-nupkg-metadata-reader",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "xml2js": "^0.4.13"
+  }
+}
